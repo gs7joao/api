@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "My first project Node.js",
+  "main": "./src/serve.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/serve.js",
+    "test": "node src/test.js"
+  },
+  "author": "João Pedro",
+  "license": "ISC"
+}
