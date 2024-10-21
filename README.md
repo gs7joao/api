@@ -1,6 +1,7 @@
-My first project Node.Js
+My first project NodeJS
 
-Overview
+**Overview**
+
 This project is a simple Node.js API that uses middleware to handle requests and responses. It stores data in a db.json file and allows for CRUD operations (Create, Read, Update, Delete) on the data.
 
 **Features**
