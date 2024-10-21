@@ -11,3 +11,5 @@ This project is a simple Node.js API that uses middleware to handle requests and
 **Data Persistence**: Data is stored in a db.json file to ensure persistence across application restarts.
 
 **Easy to Use**: Provides a simple interface for querying and managing data.
+
+![alt text](./images/image.png)

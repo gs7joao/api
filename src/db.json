@@ -1,12 +1,9 @@
 {
   "products": [
     {
-      "name": "Teclado",
-      "price": 240.2
-    },
-    {
+      "id": "1720b452-6da8-48f8-846f-061f5a21a07b",
       "name": "Computer",
-      "price": 400.2
+      "price": 220
     }
   ]
 }

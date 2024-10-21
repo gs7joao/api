@@ -9,5 +9,8 @@
     "test": "node src/test.js"
   },
   "author": "João Pedro",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^10.0.0"
+  }
 }
