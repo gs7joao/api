@@ -1,11 +1,12 @@
 My first project Node.Js
 
-Start Server and config package.json
+Overview
+This project is a simple Node.js API that uses middleware to handle requests and responses. It stores data in a db.json file and allows for CRUD operations (Create, Read, Update, Delete) on the data.
 
-Examples Requistions HTTP:
+**Features**
 
-![Method](./images/image.png)
+**Middleware:** Handles JSON request bodies and routes requests based on HTTP methods and paths.
 
-![Response Status Code HTTP](./images/image-1.png)
+**Data Persistence**: Data is stored in a db.json file to ensure persistence across application restarts.
 
-![Examples Response](./images/image-2.png)
+**Easy to Use**: Provides a simple interface for querying and managing data.
