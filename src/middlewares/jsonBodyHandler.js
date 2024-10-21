@@ -14,6 +14,7 @@
  * });
  */
 export async function jsonBodyHandler(request, response) {
+    console.log('roda')
     // Array to store incoming chunks of data
     const buffers = [];
 

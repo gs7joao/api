@@ -10,23 +10,26 @@ export const routes = [
   {
     method: "GET",
     path: "/products",
-    controller: (request, response) => {
+    controller: ({request, response, database}) => {
+      const products = database.select("products")
       // Responds with a list of products, including query parameters
-      return response.end("List Products \n" + JSON.stringify(request.query));
+      return response.end(JSON.stringify(products));
     }
-  },
-  {
+  },{
     method: "POST",
     path: "/products",
-    controller: (request, response) => {
+    controller: ({request, response, database}) => {
+      const  {name, price} = request.body
+      
+      database.insert("products", {name, price})
+
       // Responds with the body of the request after creating a new product
-      return response.writeHead(201).end(JSON.stringify(request.body));
+      return response.writeHead(201).end();
     }
-  },
-  {
+  },{
     method: "DELETE",
     path: "/products/:id",
-    controller: (request, response) => {
+    controller: ({request, response}) => {
       // Responds with the ID of the product that was deleted
       return response.end("Product Deleted ID: " + request.params.id);
     }

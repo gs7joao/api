@@ -1,0 +1,12 @@
+{
+  "products": [
+    {
+      "name": "Teclado",
+      "price": 240.2
+    },
+    {
+      "name": "Computer",
+      "price": 400.2
+    }
+  ]
+}
